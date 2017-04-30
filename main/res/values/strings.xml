@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Yahtzee</string>
+    <string name="bthrow">Throw</string>
+    <string name="uone">Ones</string>
+    <string name="utwo">Twos</string>
+    <string name="uthree">Threes</string>
+    <string name="ufour">Fours</string>
+    <string name="ufive">Fives</string>
+    <string name="usix">Sixes</string>
+    <string name="ustotal">SubTotal</string>
+    <string name="ubonus">Bonus</string>
+    <string name="utotal">Upper Total</string>
+    <string name="l3ofkind">3 of a Kind</string>
+    <string name="l4ofkind">4 of a Kind</string>
+    <string name="lfullhouse">Full House</string>
+    <string name="lsmalls">Small Straight</string>
+    <string name="llarges">Large Straight</string>
+    <string name="lyahtzee">Yahtzee</string>
+    <string name="lchance">Chance</string>
+    <string name="ltotal">Lower Total</string>
+    <string name="lgtotal">Grand Total</string>
+    <string name="gtotal">Grand Total</string>
+    <string name="available">0</string>
+    <string name="skipped">---</string>
+    <string name="one">1</string>
+    <string name="lroll">Roll</string>
+    <string name="lturn">Turn</string>
+</resources>

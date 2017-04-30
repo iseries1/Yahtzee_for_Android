@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#7fa87f"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/LOnes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="@string/uone" />
+
+        <TextView
+            android:id="@+id/Ones"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:background="@android:color/holo_green_light"
+            android:gravity="right"
+            android:onClick="itemSelect"
+            android:text="@string/available" />
+
+        <TextView
+            android:id="@+id/L3ofkind"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="@string/l3ofkind" />
+
+        <TextView
+            android:id="@+id/n3ofkind"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:background="@android:color/holo_green_light"
+            android:gravity="right"
+            android:onClick="itemSelect"
+            android:text="@string/available" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/LTwos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="@string/utwo" />
+
+        <TextView
+            android:id="@+id/Twos"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_green_light"
+            android:ems="10"
+            android:gravity="right"
+            android:onClick="itemSelect"
+            android:text="@string/available" />
+
+        <TextView
+            android:id="@+id/L4ofkind"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="@string/l4ofkind" />
+
+        <TextView
+            android:id="@+id/n4ofkind"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:background="@android:color/holo_green_light"
+            android:gravity="right"
+            android:onClick="itemSelect"
+            android:text="@string/available" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/LThrees"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="@string/uthree" />
+
+        <TextView
+            android:id="@+id/Threes"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:background="@android:color/holo_green_light"
+            android:gravity="right"
+            android:onClick="itemSelect"
+            android:text="@string/available" />
+
+        <TextView
+            android:id="@+id/LFullhouse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="@string/lfullhouse" />
+
+        <TextView
+            android:id="@+id/nfullhouse"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:background="@android:color/holo_green_light"
+            android:gravity="right"
+            android:onClick="itemSelect"
+            android:text="@string/available" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/LFours"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="@string/ufour" />
+
+        <TextView
+            android:id="@+id/Fours"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:background="@android:color/holo_green_light"
+            android:gravity="right"
+            android:onClick="itemSelect"
+            android:text="@string/available" />
+
+        <TextView
+            android:id="@+id/Lsmalls"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="@string/lsmalls" />
+
+        <TextView
+            android:id="@+id/nsmalls"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:background="@android:color/holo_green_light"
+            android:gravity="right"
+            android:onClick="itemSelect"
+            android:text="@string/available" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/LFive"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="@string/ufive" />
+
+        <TextView
+            android:id="@+id/Fives"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:background="@android:color/holo_green_light"
+            android:gravity="right"
+            android:onClick="itemSelect"
+            android:text="@string/available" />
+
+        <TextView
+            android:id="@+id/Llarges"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="@string/llarges" />
+
+        <TextView
+            android:id="@+id/nlarges"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:background="@android:color/holo_green_light"
+            android:gravity="right"
+            android:onClick="itemSelect"
+            android:text="@string/available" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/LSixes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="@string/usix" />
+
+        <TextView
+            android:id="@+id/Sixes"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:background="@android:color/holo_green_light"
+            android:gravity="right"
+            android:onClick="itemSelect"
+            android:text="@string/available" />
+
+        <TextView
+            android:id="@+id/LYahtzee"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="@string/lyahtzee" />
+
+        <TextView
+            android:id="@+id/nyahtzee"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:background="@android:color/holo_green_light"
+            android:gravity="right"
+            android:onClick="itemSelect"
+            android:text="@string/available" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/LSTotal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="@string/ustotal" />
+
+        <TextView
+            android:id="@+id/Subtotal"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="right"
+            android:text="@string/skipped"/>
+
+        <TextView
+            android:id="@+id/LChance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="@string/lchance" />
+
+        <TextView
+            android:id="@+id/nchance"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:background="@android:color/holo_green_light"
+            android:gravity="right"
+            android:onClick="itemSelect"
+            android:text="@string/available" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/LBonus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="@string/ubonus" />
+
+        <TextView
+            android:id="@+id/bonus"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="right"
+            android:text="@string/skipped" />
+
+        <TextView
+            android:id="@+id/LLTotal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="@string/ltotal" />
+
+        <TextView
+            android:id="@+id/LowerTotal"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="right"
+            android:text="@string/skipped" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/LTotal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="@string/utotal" />
+
+        <TextView
+            android:id="@+id/UpperTotal"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="right"
+            android:text="@string/skipped" />
+
+        <TextView
+            android:id="@+id/LGTotal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="@string/gtotal" />
+
+        <TextView
+            android:id="@+id/GrandTotal"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="right"
+            android:text="@string/skipped" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/LRolls"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="@string/lroll"
+            android:textColor="@android:color/holo_green_light" />
+
+        <TextView
+            android:id="@+id/nrolls"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/available"
+            android:textColor="@android:color/holo_green_light" />
+
+        <TextView
+            android:id="@+id/LTurn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="@string/lturn"
+            android:textColor="@android:color/holo_green_light" />
+
+        <TextView
+            android:id="@+id/nturn"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/one"
+            android:textColor="@android:color/holo_green_light" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:paddingLeft="50dp"
+        android:paddingTop="10dp">
+
+        <view
+            android:id="@+id/dice"
+            class="org.mburm.yahtzee.DiceView"
+            layout_width="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/BThrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:elevation="9dp"
+            android:onClick="diceThrow"
+            android:text="@string/bthrow" />
+    </LinearLayout>
+
+</LinearLayout>
